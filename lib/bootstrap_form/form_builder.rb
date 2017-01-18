@@ -394,7 +394,7 @@ module BootstrapForm
     end
 
     def generate_icon(icon)
-      content_tag(:span, "", class: "glyphicon glyphicon-#{icon} form-control-feedback")
+      content_tag(:span, "", class: "fa fa-#{icon} form-control-feedback")
     end
 
     def get_error_messages(name)
